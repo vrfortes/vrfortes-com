@@ -4,16 +4,22 @@ body {
     margin: 2rem auto;
     padding: 0 1rem;
     line-height: 1.5;
+    background-color: bisque;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
+    background-color: salmon;
+    position: relative;
 }
 
-h1 {
-    color: #f38020;
-    font-size: 1.35rem;
-    margin: 0;
+header img {
+    position: absolute;
+    right: 0%;
+    width: 5%;
+    height: 100%;
+}
+
+header h1 {
+    top: 18px;
+    left: 10px;
 }
