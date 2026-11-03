@@ -1,34 +1,39 @@
-body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  margin: 0;
-  padding: 20px;
-  line-height: 1.6;
-  background-color: #232222;
-  color: #fff;
-  text-align: left;
-}
-
 header {
   text-align: left;
-  padding: 20px 0;
+  padding: 1px;
 }
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding: 10px;
+  line-height: 1.2;
+  background-color: #232222;
+  color: #fff;
+  text-align: justify;
+}
+
 
 footer {
   text-align: left;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 
 button {
   border: none;
   color: white;
-  padding: 12px 24px;
+  padding: 10px 12px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 3px 2px;
   cursor: pointer;
 
   border-radius: 16px;
