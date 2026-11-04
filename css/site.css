@@ -51,3 +51,12 @@ hr {
   background-color: #ffffff;
   margin: 20px 0;
 }
+
+table, td {
+  border: 10px solid #232222;
+  border-collapse: collapse;
+  color:#232222;
+  background-color: white;
+  padding: 8px;
+  text-align: left;
+}
