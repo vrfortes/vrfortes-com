@@ -11,7 +11,7 @@ body {
   margin: 0;
   padding: 10px;
   line-height: 1.2;
-  background-color: #232222;
+  background-color: #121212;
   color: #fff;
   text-align: justify;
 }
@@ -53,9 +53,9 @@ hr {
 }
 
 table, td {
-  border: 10px solid #232222;
+  border: 10px solid #121212;
   border-collapse: collapse;
-  color:#232222;
+  color:#121212;
   background-color: white;
   padding: 8px;
   text-align: left;
