@@ -18,11 +18,24 @@ body {
 
 
 footer {
-  text-align: left;
+  text-align: center;
   padding: 10px 0;
 }
 
+/* Footer */
 
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.wrapper > div:first-child {
+  text-align: left;
+}
+
+/* Style for the buttons */
 button {
   border: none;
   color: white;
@@ -40,11 +53,13 @@ button {
   corner-shape: squircle;
     }
 
+/* Style for the links */  
 a {
   color: black;
   text-decoration: none;
 }
 
+/* Style for the line separator */
 hr {
   border: none;
   height: 3px;
@@ -52,11 +67,32 @@ hr {
   margin: 20px 0;
 }
 
-table, td {
-  border: 10px solid #121212;
-  border-collapse: collapse;
-  color:#121212;
-  background-color: white;
-  padding: 8px;
-  text-align: left;
+.social-links {
+  display: grid;
+  grid-template-rows: repeat(2, 44px);
+  grid-template-columns: repeat(3, 44px);
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* No border or background, so there’s no box around the logo */
+}
+
+.social-link:hover,
+.social-link:focus-visible {
+  background-color: #eee;
+}
+
+.social-link:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 3px;
+}
+
+.social-link img {
+  display: block;
+  filter: brightness(0) invert(1);
 }
