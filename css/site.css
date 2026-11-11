@@ -68,18 +68,19 @@ hr {
 }
 
 .social-links {
-  display: grid;
-  grid-template-rows: repeat(2, 44px);
-  grid-template-columns: repeat(3, 44px);
-  gap: 0.5rem;
-  margin-left: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .social-link {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
-  /* No border or background, so there’s no box around the logo */
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .social-link:hover,
