@@ -1,0 +1,9 @@
+.env
+.git
+node_modules/
+__pycache__/
+*.pyc
+.vscode/
+images/thumbs.db
+css/site.css~
+.DS_Store
