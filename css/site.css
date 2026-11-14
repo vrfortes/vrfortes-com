@@ -66,11 +66,6 @@ hr {
   gap: 1rem;
 }
 
-.social-link:hover,
-.social-link:focus-visible {
-  background-color: #eee;
-}
-
 .social-link:focus-visible {
   outline: 2px solid white;
   outline-offset: 3px;
@@ -90,7 +85,7 @@ hr {
   
   .social-links {
     justify-content: center;
-    width: 100%;
+    width: 50%;
     order: 2; /* ensures it appears below copyright */
   }
 }
