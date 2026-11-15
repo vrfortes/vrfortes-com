@@ -159,3 +159,19 @@ footer p {
   display: block;
   filter: brightness(0) invert(1);
 }
+
+.skip-link {
+  position: absolute !important;
+  top: -40px;
+  left: 0;
+  z-index: 999;
+  padding: 0.5rem 1rem;
+  background: #ff3131;
+  color: white;
+  text-decoration: none;
+  border-radius: 0 0 4px 0;
+}
+
+.skip-link:focus {
+  top: 0;
+}
