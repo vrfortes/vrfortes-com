@@ -33,9 +33,16 @@
     </head>
 
     <body>
+        <!-- Header is loaded asynchronously from a separate file via HTMX -->
         <header hx-get="header.html" hx-trigger="load" hx-swap="innerHTML"></header>
 
-        <main>
+        <!-- 
+             STICKY FOOTER LAYOUT:
+             The body uses flexbox with flex-direction: column.
+             main has flex-grow: 1, so it expands to fill all remaining space.
+             This pushes the footer to the bottom even when main is empty.
+        -->
+        <main class="flex-fill" role="main" aria-label="Main Content">
             <a>You are in Stack.</a>
         </main>
 

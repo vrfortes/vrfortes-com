@@ -42,7 +42,7 @@ nav, nav a {
 main {
     color: white;
     padding: 1rem;
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -65,18 +65,15 @@ main h1 {
 /* ─── Sections ──────────────────────────────────────────────────────────────── */
 
 /* Hero section: centered, used for introductory content */
-main section.hero {
-    text-align: center;
-}
-
-main section.hero h1,
-main section.hero p {
+.biography h1,
+.hero,
+.hero h1,
+.hero p {
     text-align: center;
 }
 
 /* Biography section: left-aligned for long-form readable text */
-main section.biography h1,
-main section.biography p {
+.biography p {
     text-align: left;
 }
 
