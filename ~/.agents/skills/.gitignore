@@ -1,9 +1,0 @@
-# Symlinked skills (user-level, available globally)
-# These are symlinks from ~/pi/skills/ or project-local .agents/skills/
-# Keep them gitignored so they don't pollute your repo with user-specific skills
-hypermedia-driven-application/
-pdf-convert/
-modern-web-guidance/
-
-# Ignore any subdirectories that might contain nested SKILL.md files
-**/*.md
