@@ -78,7 +78,7 @@ main h1 {
 
 /* Biography section: left-aligned for long-form readable text */
 .biography p {
-    text-align: left;
+    text-align: justify;
 }
 
 /* ─── Subpages ──────────────────────────────────────────────────────────────── */
