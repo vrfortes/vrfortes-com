@@ -1,21 +1,32 @@
-/* font */
+/* =============================================================================
+   Site Stylesheet — vrfortes.com
+   Author: Vladimir Rui Fortes
+   Purpose: Global styles for the personal website
+   ============================================================================= */
+
+/* ─── Typography ────────────────────────────────────────────────────────────── */
+
 @font-face {
-	font-family: "montserrat";
-	src: url("../fonts/montserrat_var.woff2");
-	font-weight: 100 900; /* Variable font weight range */
-    font-display: swap;
+    font-family: "montserrat";
+    src: url("../fonts/montserrat_var.woff2");
+    font-weight: 100 900; /* Variable font weight range: ultra-light to extra-bold */
+    font-display: swap;   /* Prevents layout shift while font loads */
 }
 
-/* body */
+/* ─── Global Body ────────────────────────────────────────────────────────────── */
+
 body {
     font-family: "montserrat", sans-serif;
     background-color: black;
 }
 
-/* header only  */
+/* ─── Header ─────────────────────────────────────────────────────────────────── */
+
 header {
     font-weight: 700;
 }
+
+/* ─── Navigation ────────────────────────────────────────────────────────────── */
 
 nav, nav a {
     display: flex;
@@ -26,14 +37,56 @@ nav, nav a {
     color: white;
 }
 
-/* main */
-main, main a {
+/* ─── Main Content ──────────────────────────────────────────────────────────── */
+
+main {
+    color: white;
+    padding: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main p {
     font-weight: 500;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    line-height: 1.6;
+}
+
+main h1 {
+    font-weight: 700;
+    margin-top: 0;
+    text-align: center;
+}
+
+/* ─── Sections ──────────────────────────────────────────────────────────────── */
+
+/* Hero section: centered, used for introductory content */
+main section.hero {
+    text-align: center;
+}
+
+main section.hero h1,
+main section.hero p {
+    text-align: center;
+}
+
+/* Biography section: left-aligned for long-form readable text */
+main section.biography h1,
+main section.biography p {
+    text-align: left;
+}
+
+/* ─── Footer ────────────────────────────────────────────────────────────────── */
+
+footer {
+    font-weight: 700;
     color: white;
 }
 
-/* footer */
-footer, footer p {
-    font-weight: 700;
-    color: white;
+footer p {
+    text-align: center;
 }
