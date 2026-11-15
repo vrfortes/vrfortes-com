@@ -1,0 +1,39 @@
+/* font */
+@font-face {
+	font-family: "montserrat";
+	src: url("../fonts/montserrat_var.woff2");
+	font-weight: 100 900; /* Variable font weight range */
+    font-display: swap;
+}
+
+/* body */
+body {
+    font-family: "montserrat", sans-serif;
+    background-color: black;
+}
+
+/* header only  */
+header {
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* main */
+main {
+    font-weight: 500;
+}
+
+main a {
+    color: white;
+}

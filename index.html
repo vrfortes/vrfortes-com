@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/site.css">
 
-    <title>Vladimir Rui Fortes</title>
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Vladimir Rui Fortes | Website">
-    <meta name="description" content="A Filipino electrical engineering student at the University of the Philippines with interests in web development, machine learning, and computing.">
-    <meta property="og:description" content="A Filipino electrical engineering student at the University of the Philippines with interests in web development, machine learning, and computing.">
-    <meta property="og:url" content="https://vrfortes.com/">
+        <title>Home | Vladimir Rui Fortes</title>
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Vladimir Rui Fortes">
+        <meta name="description" content="A Filipino electrical engineering student at the University of the Philippines with interests in web development, machine learning, and computing.">
+        <meta property="og:description" content="A Filipino electrical engineering student at the University of the Philippines with interests in web development, machine learning, and computing.">
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Vladimir Rui Fortes | Website">
-    <meta name="twitter:description" content="A Filipino electrical engineering student...">
+        <meta property="og:site_name" content="Vladimir Rui Fortes">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:updated_time" content="2026-11-14">
+        <meta property="og:url" content="https://vrfortes.com/">
 
-    <meta property="og:image" content="https://vrfortes.com/images/og-image.jpg">
-    <meta name="twitter:image" content="https://vrfortes.com/images/og-image.jpg">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Vladimir Rui Fortes">
+        <meta name="twitter:description" content="A Filipino electrical engineering student...">
 
-    <!-- for Bing -->
-    <meta name="msvalidate.01" content="8501E8E6CA20F4E205E7B71D29804B27">
-</head>
+        <meta property="og:image" content="https://vrfortes.com/images/og-image.jpg">
+        <meta name="twitter:image" content="https://vrfortes.com/images/og-image.jpg">
 
-<body>
+        <!-- for Bing -->
+        <meta name="msvalidate.01" content="8501E8E6CA20F4E205E7B71D29804B27">
 
-</body>
+        <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+    </head>
+
+    <body>
+        <header>
+            <header hx-get="header.html" hx-trigger="load" hx-swap="innerHTML"></header>
+        </header>
+
+        <main>
+            <a>You are in Home.</a>
+        </main>
+    </body>
 
 </html>
