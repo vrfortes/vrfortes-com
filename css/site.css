@@ -134,3 +134,28 @@ footer {
 footer p {
     text-align: center;
 }
+
+/* Style for the footer's website links */
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-link:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 3px;
+}
+
+.social-link img {
+  display: block;
+  filter: brightness(0) invert(1);
+}
