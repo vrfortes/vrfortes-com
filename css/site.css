@@ -17,23 +17,23 @@ header {
     font-weight: 700;
 }
 
-nav {
+nav, nav a {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
-}
-
-nav a {
     text-decoration: none;
     color: white;
 }
 
 /* main */
-main {
+main, main a {
     font-weight: 500;
+    color: white;
 }
 
-main a {
+/* footer */
+footer, footer p {
+    font-weight: 700;
     color: white;
 }

@@ -29,16 +29,17 @@
         <!-- for Bing -->
         <meta name="msvalidate.01" content="8501E8E6CA20F4E205E7B71D29804B27">
 
+        <script src="https://unpkg.com/htmx.org@4.0.0/dist/htmx.min.js"></script>
     </head>
 
     <body>
-        <header>
-            <header hx-get="header.html" hx-trigger="load" hx-swap="innerHTML"></header>
-        </header>
+        <header hx-get="header.html" hx-trigger="load" hx-swap="innerHTML"></header>
 
         <main>
             <a>You are in Stack.</a>
         </main>
+
+        <footer hx-get="footer.html" hx-trigger="load" hx-swap="innerHTML"></footer>
     </body>
 
 </html>

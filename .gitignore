@@ -7,3 +7,8 @@ __pycache__/
 images/thumbs.db
 css/site.css~
 .DS_Store
+.pi/skills/**
+.agents/skills/**
+scripts/*.py
+**/*.md
+skills-lock.json
