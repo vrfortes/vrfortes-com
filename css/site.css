@@ -159,6 +159,7 @@ footer p {
   filter: brightness(0) invert(1);
 }
 
+/* skip-link */
 .skip-link {
   position: absolute !important;
   top: -40px;
